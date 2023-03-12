@@ -1,0 +1,79 @@
+.page {
+  background-color: #e3ecd1;
+  max-width: 1280px;
+  margin: 50px auto;
+}
+
+.header {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.mem-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mem-list:hover {
+  cursor: pointer;
+}
+
+.mem__list:hover > .mem > .mem__description > .mem__open {
+  display: block;
+}
+
+.mem-list:hover > .mem > .mem__description .mem__open {
+  display: block;
+}
+
+.mem {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid;
+  padding-bottom: 30px;
+}
+
+.mem__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mem__description:hover + .mem__image {
+  display: block;
+}
+
+.mem__title {
+  font-size: 35px;
+  line-height: 1.1;
+  color: blue;
+}
+
+.mem__open {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 50px;
+  background: none;
+  background-image: url("./images/plus.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: none;
+}
+
+.mem__image {
+  margin: 0 auto;
+  max-width: 500xp;
+  max-height: 500px;
+  display: none;
+}
