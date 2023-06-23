@@ -1,2 +1,10 @@
 # cssBayan
-Данный проект был реализован в рамках обучения по программе RS School. Весь функционал реализован без использования JS.
+Учебный проект в рамках обучения в школе [RS School](https://rs.school/). </br>
+
+## Функциональный стек
+- HTML
+- CSS
+
+
+Доступен по [ссылке](https://mickkrishtopa.github.io/cssBayan/cssBayan/index.html)
+
